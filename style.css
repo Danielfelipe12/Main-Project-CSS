@@ -1,0 +1,72 @@
+#img {  
+  width: 800px;
+  height: 500px;
+  vertical-align: middle;
+  margin: auto;
+}
+#body {
+  margin: 0;
+  padding: 0;
+  background-color: #73c8a9;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+form {
+  width: 50%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form label, form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+p{
+font-family: Georgia  
+}
+
+h1{
+font-family: display
+}
+
+h2{
+  text-align: center;
+  color: blue
+}
+.contenedor {
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.contenedor:hover {
+  background-color: #CCCCCC;
+}
+#Lg{
+  width: 150px;
+  height: 150px;
+}
+#Cars{
+  width: 125px;
+  height: 125px;
+}
